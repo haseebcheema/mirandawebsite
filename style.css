@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Canopee;
+    src: url(./616fd1dd00cf6c70f978fc69_Canopee.ttf);
+}
+
+@font-face {
+    font-family: Domaine;
+    src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    width: 100%;
+}
+
+#page1{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #C3BCB2;
+}
+
+#nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #6F6C66;
+}
+
+#nav img{
+    height: 18px;
+}
+
+#nav h5{
+    font-size: 15px;
+    font-weight: 100;
+    color: #1C1C1A;
+    font-family: "Domaine";
+}
+
+#nav i{
+    font-size: 23px;
+    margin-left: 40px;
+}
+
+#elems{
+    /* background-color: red; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#elem1{
+    /* background-color: yellow; */
+    width: 35%;
+    height: 90%;
+    padding: 0 0 0 20px;
+}
+
+#img-container{
+    width: 90%;
+    height: 60%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease .8s;
+}
+
+#img-container:hover img{
+    scale: 1.2;
+}
+
+#elem1 h4{
+    font-family: "Canopee";
+    font-size: 20px;
+    margin: 10px 0;
+    color: #1C1C1A;
+    font-weight: 600;
+}
+
+#elem1 span{
+    background-color: #B53C12;
+    padding: 3px 5px;
+    color: #C2BBB2;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#elem1 p{
+    font-family: "Domaine";
+    font-weight: 100;
+    color: #44423F;
+    width: 90%;
+    font-size: 17px;
+}
+
+#elem2{
+    /* background-color: aqua; */
+    width: 30%;
+    height: 90%;
+    border-left: 1px solid #6F6C66;
+    border-right: 1px solid #6F6C66;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#elem2 h2{
+    font-family: "Canopee";
+    font-size: 60px;
+    font-weight: 500;
+    color: #1C1C1A;
+}
+
+#elem2 h4{
+    font-family: "Domaine";
+    font-size: 40px;
+    font-weight: 100;
+    color: #1C1C1A;
+}
+
+#elem2 p{
+    color: #44423F;
+    font-family: "Domaine";
+    font-size: 17px;
+}
+
+#elem2 p>span{
+    color: #1C1C1A;
+    font-weight: 600;
+}
+
+#elem3{
+    /* background-color: green; */
+    width: 35%;
+    height: 90%;
+    padding: 0 0 0 40px;
+}
+
+#elem3 h4{
+    font-family: "Canopee";
+    font-size: 20px;
+    margin: 10px 0;
+    color: #1C1C1A;
+    font-weight: 600;
+}
+
+#elem3 span{
+    background-color: #B53C12;
+    padding: 3px 5px;
+    color: #C2BBB2;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#elem3 p{
+    font-family: "Domaine";
+    font-weight: 100;
+    color: #44423F;
+    width: 90%;
+    font-size: 17px;
+}

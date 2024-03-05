@@ -24,6 +24,7 @@ html, body{
     height: 100vh;
     position: relative;
     background-color: #C3BCB2;
+    overflow-x: hidden;
 }
 
 #nav{
@@ -176,4 +177,17 @@ html, body{
     color: #44423F;
     width: 90%;
     font-size: 17px;
+}
+
+#miranda{
+    width: 96%;
+    margin-left: 2%;
+    background-color: #1C1C1A;
+    color: #C5BDB3;
+    font-family: "Canopee";
+    font-size: 500px;
+    font-weight: 100;
+    line-height: 400px;
+    letter-spacing: -23px;
+    padding-left: 15px;
 }

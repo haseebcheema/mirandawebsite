@@ -527,3 +527,51 @@ html, body{
     right: 18%;
     font-weight: 200;
 }
+
+#page6{
+    width: 100%;
+    height: 110vh;
+    background-color: #C2BBB2;
+    padding: 60px 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page6l{
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#page6l img{
+    float: left;
+    height: 42%;
+    width: 30%;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+#page6l h1{
+    color: #1C1C1A;
+    font-family: "Domaine";
+    font-size: 310px;
+    line-height: 300px;
+    letter-spacing: -24px;
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+#page6r{
+    width: 55%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+#page6r img{
+    border: 1px solid #000;
+    width: 94%;
+    height: 90%;
+    margin-left: 30px;
+    object-fit: cover;
+}

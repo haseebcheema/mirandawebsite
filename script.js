@@ -1,3 +1,13 @@
+// using locomotive for smooth scrolling effect
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#wrapper'),
+    smooth: true
+});
+
+
+// using gsap for starter page animation
+
 var tl = gsap.timeline()
 
 tl.to("#page1", {

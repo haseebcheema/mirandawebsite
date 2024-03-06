@@ -25,10 +25,10 @@ html, body{
 
 #page1{
     width: 100vw;
-    height: 100vh;
+    height: 140vh;
     position: relative;
     background-color: #C3BCB2;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #nav{
@@ -61,7 +61,7 @@ html, body{
 #elems{
     /* background-color: red; */
     width: 100%;
-    height: 50%;
+    height: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -195,4 +195,10 @@ html, body{
     line-height: 400px;
     letter-spacing: -23px;
     padding-left: 15px;
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #C3BCB2;
 }

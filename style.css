@@ -570,8 +570,76 @@ html, body{
 
 #page6r img{
     border: 1px solid #000;
-    width: 94%;
+    width: 93%;
     height: 90%;
     margin-left: 30px;
     object-fit: cover;
 }
+
+#page7{
+    width: 100%;
+    height: 55vh;
+    background-color: #C3BCB2;
+    padding: 0 25px 0 25px;
+    position: relative;
+}
+
+#page7 h1{
+    position: absolute;
+    top: -5%;
+    right: 0;
+    /* background-color: #1C1C1A; */
+    color: #1C1C1A;
+    font-family: "Canopee";
+    font-size: 390px;
+    font-weight: 100;
+    line-height: 340px;
+    letter-spacing: -20px;
+    width: fit-content;
+    padding: 10px 40px 0 20px;
+}
+
+#page7 img{
+    height: 90%;
+    width: 28%;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+ 
+#page8{
+    width: 100%;
+    background-color: #C3BCB2;
+    padding: 20px 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1C1C1A;
+}
+
+#page8 h1{
+    background-color: #1C1C1A;
+    color: #C5BDB3;
+    font-family: "Canopee";
+    font-size: 350px;
+    font-weight: 100;
+    line-height: 320px;
+    letter-spacing: -23px;
+    width: fit-content;
+    padding: 10px 40px 0 20px;
+}
+
+#page8r{
+    padding: 0 20px;
+}
+
+#page8r p{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Domaine";
+}
+
+#page8r h2{
+    font-size: 90px;
+    font-family: "Canopee";
+}
+

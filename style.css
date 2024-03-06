@@ -301,3 +301,147 @@ html, body{
     top: 5%;
     height: 90%;
 }
+
+#page4{
+    width: 100%;
+    height: 150vh;
+    background-color: #C3BCB2;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page4l{
+    height: 100%;
+    width: 60%;
+    /* background-color: aqua; */
+    border-right: 1px solid #000;
+}
+
+#page4ltop{
+    /* background-color: green; */
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#page4ltopl{
+    width: 45%;
+    height: 100%;
+    border-right: 1px solid #000;
+    padding: 10px 0 10px 5px;
+}
+
+#page4ltopl h2{
+    font-family: "Canopee";
+    font-size: 50px;
+    font-weight: 500;
+    color: #1C1C1A;
+}
+
+#page4ltopl h4{
+    font-family: "Domaine";
+    font-size: 35px;
+    font-weight: 100;
+    color: #1C1C1A;
+}
+
+#page4ltopl p{
+    color: #44423F;
+    font-family: "Domaine";
+    font-size: 17px;
+}
+
+#page4ltopl p>span{
+    color: #1C1C1A;
+    font-weight: 600;
+}
+
+#page4ltopr{
+    width: 55%;
+    height: 90%;
+    padding: 0 0 0 40px;
+}
+
+#page4ltopr h4{
+    font-family: "Canopee";
+    font-size: 20px;
+    margin: 10px 0;
+    color: #1C1C1A;
+    font-weight: 600;
+}
+
+#page4ltopr span{
+    background-color: #B53C12;
+    padding: 3px 5px;
+    color: #C2BBB2;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#page4ltopr p{
+    font-family: "Domaine";
+    font-weight: 100;
+    color: #44423F;
+    width: 90%;
+    font-size: 17px;
+}
+
+#page4lbottom{
+    width: 100%;
+    height: 65%;
+    /* background-color: teal; */
+    margin: 20px;
+    padding-right: 15px;
+}
+
+#page4lbottom img{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 1px solid #000; */
+    margin-bottom: 30px;
+}
+
+#page4r{
+    height: 100%;
+    width: 40%;
+    /* background-color: yellow; */
+    padding-left: 50px;
+    padding-top: 0;
+}
+
+#page4r h1{
+    font-family: "Canopee";
+    font-size: 90px;
+    color: #1C1C1A;
+    margin-left: 8px;
+    line-height: 105px;
+    letter-spacing: -2px;
+}
+
+#page4r h1 span{
+    font-size: 160px;
+}
+
+#page4r p span{
+    color: #C3BCB2;
+    background-color: #1C1C1A;
+    font-weight: 600;
+    font-size: 70px;
+    padding: 0 8px;
+    margin: 10px 14px 0 0;
+    float: left;
+}
+
+#page4r p{
+    font-family: "Domaine";
+    color: #1C1C1A;
+    width: 88%;
+    font-size: 30px;
+    padding-left: 10px;
+}

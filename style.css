@@ -195,10 +195,73 @@ html, body{
     line-height: 400px;
     letter-spacing: -23px;
     padding-left: 15px;
+    padding-top: 10px;
 }
 
 #page2{
     width: 100%;
-    height: 100vh;
+    height: 160vh;
     background-color: #C3BCB2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 26px;
+}
+
+#page2l{
+    height: 100%;
+    width: 35%;
+    /* background-color: red; */
+    border-right: 1px solid #6F6C66;
+}
+
+#page2l h1{
+    font-family: "Canopee";
+    font-size: 90px;
+    color: #1C1C1A;
+    margin-left: 8px;
+    line-height: 105px;
+    letter-spacing: -2px;
+}
+
+#page2l h1 span{
+    font-size: 150px;
+}
+
+#page2l img{
+    height: 50%;
+    width: 83%;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#page2l p span{
+    color: #C3BCB2;
+    background-color: #1C1C1A;
+    font-weight: 600;
+    font-size: 70px;
+    padding: 0 8px;
+    margin: 10px 14px 0 0;
+    float: left;
+}
+
+#page2l p{
+    font-family: "Domaine";
+    color: #1C1C1A;
+    width: 88%;
+    font-size: 30px;
+}
+
+#page2r{
+    height: 100%;
+    width: 65%;
+    background-color: red;
+}
+
+#page2r img{
+    width: 30%;
+    height: 70%;
+    object-fit: cover;
 }

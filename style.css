@@ -900,7 +900,7 @@ html, body{
     cursor: pointer;
 }
 
-footer{
+#footer{
     height: 65px;
     width: 100%;
     background-color: #C4BCB3;

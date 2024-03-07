@@ -614,6 +614,8 @@ html, body{
     justify-content: space-between;
     align-items: center;
     color: #1C1C1A;
+    border-bottom: 1px solid #000;
+    padding-bottom: 40px;
 }
 
 #page8 h1{

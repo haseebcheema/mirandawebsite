@@ -53,9 +53,17 @@ html, body{
     font-family: "Domaine";
 }
 
+#nav h5:hover{
+    cursor: context-menu;
+}
+
 #nav i{
     font-size: 23px;
     margin-left: 40px;
+}
+
+#nav i:hover{
+    cursor: pointer;
 }
 
 #elems{
@@ -66,6 +74,10 @@ html, body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+}
+
+#elems:hover{
+    cursor: pointer;
 }
 
 #elem1{
@@ -198,6 +210,10 @@ html, body{
     padding-top: 10px;
 }
 
+#miranda:hover{
+    cursor: context-menu;
+}
+
 #page2{
     width: 100%;
     height: 160vh;
@@ -276,6 +292,10 @@ html, body{
     line-height: 80px;
 }
 
+#page2:hover{
+    cursor: context-menu;
+}
+
 #page3{
     width: 100%;
     background-color: #C3BCB2;
@@ -300,6 +320,10 @@ html, body{
     right: 2%;
     top: 5%;
     height: 90%;
+}
+
+#page3:hover{
+    cursor: context-menu;
 }
 
 #page4{
@@ -362,10 +386,18 @@ html, body{
     font-weight: 600;
 }
 
+#page4ltopl:hover{
+    cursor: context-menu;
+}
+
 #page4ltopr{
     width: 55%;
     height: 90%;
     padding: 0 0 0 40px;
+}
+
+#page4ltopr:hover{
+    cursor: pointer;
 }
 
 #page4ltopr h4{
@@ -430,6 +462,10 @@ html, body{
     font-size: 160px;
 }
 
+#page4r:hover h1{
+    cursor: context-menu;
+}
+
 #page4r p span{
     color: #C3BCB2;
     background-color: #1C1C1A;
@@ -446,6 +482,10 @@ html, body{
     width: 88%;
     font-size: 30px;
     padding-left: 10px;
+}
+
+#page4r:hover p{
+    cursor: context-menu;
 }
 
 #oval{
@@ -475,6 +515,10 @@ html, body{
 #oval img{
     transform: translateX(-120%);
     transition: all ease 0.7s;
+}
+
+#oval:hover{
+    cursor: pointer;
 }
 
 #oval:hover h1{
@@ -528,6 +572,10 @@ html, body{
     font-weight: 200;
 }
 
+#page5:hover{
+    cursor: pointer;
+}
+
 #page6{
     width: 100%;
     height: 110vh;
@@ -576,6 +624,10 @@ html, body{
     object-fit: cover;
 }
 
+#page6:hover{
+    cursor: context-menu;
+}
+
 #page7{
     width: 100%;
     height: 55vh;
@@ -605,6 +657,10 @@ html, body{
     object-fit: cover;
     border: 1px solid #000;
 }
+
+#page7 h1:hover{
+    cursor: pointer;
+}
  
 #page8{
     width: 100%;
@@ -630,6 +686,10 @@ html, body{
     padding: 10px 40px 0 20px;
 }
 
+#page8 h1:hover{
+    cursor: context-menu;
+}
+
 #page8r{
     padding: 0 20px;
 }
@@ -640,9 +700,17 @@ html, body{
     font-family: "Domaine";
 }
 
+#page8r p:hover{
+    cursor: context-menu;
+}
+
 #page8r h2{
     font-size: 90px;
     font-family: "Canopee";
+}
+
+#page8 h2:hover{
+    cursor: pointer;
 }
 
 #page9{
@@ -661,6 +729,10 @@ html, body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+}
+
+#elements:hover{
+    cursor: pointer;
 }
 
 #element1{
@@ -825,10 +897,55 @@ html, body{
 
 #page10:hover h1{
     animation-play-state: paused;
+    cursor: pointer;
 }
 
-/* #page6 {
-    height: 100px;
+footer{
+    height: 65px;
     width: 100%;
     background-color: #C4BCB3;
-} */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#footerleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#footerleft h3{
+    font-weight: 200;
+    font-family: "Canopee";
+}
+
+#footerleft h4{
+    font-weight: 100;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-family: "Domaine";
+}
+
+#footerright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#footerright h3{
+    font-weight: 200;
+    font-family: "Canopee";
+}
+
+#footerright span{
+    margin-left: 8px;
+}
+
+#footerright h3:hover{
+    cursor: pointer;
+}
